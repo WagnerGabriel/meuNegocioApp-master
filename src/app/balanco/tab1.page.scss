@@ -1,0 +1,37 @@
+.welcome-card img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+
+.h1{
+  text-align: center;
+  font-size: 400%;
+  color: blue;
+  text-shadow: 0 2px 2px #000;
+
+}
+
+
+
+
+.parallax {
+  /* The image used */
+  background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1702/Harvest_potatoes_soil_vegetables-Life_Close-up_Photo_HD_Wallpaper_1366x768.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.barra{
+  background-color: blue;
+
+}
+.h4{
+  background-color: blue;
+}

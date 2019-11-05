@@ -1,0 +1,58 @@
+
+.ion-padding{
+    --background:#dff9fb;
+    --display: flex;
+    --align-items: center;
+    --justify-content: center;
+    --height: 100vh;
+}
+.ion-toolbar{
+    --background:#0037ff;
+    --display: flex;
+    --align-items: center;
+    --justify-content: center;
+    --height: 100vh;
+
+}
+.ion-header{
+    --background:#dff9fb;
+    --display: flex;
+    --align-items: center;
+    --justify-content: center;
+    --height: 100vh;
+}
+.ion1{
+    --background:#dff9fb;
+    --height: 1000px;
+}
+.ion2{
+    --background:#dff9fb;
+    --display: flex;
+    --align-items: center;
+    --justify-content: center;
+    --height: 150vh;
+}
+.redondo {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    color: #FFF;
+  
+    /* Agora a mágica */
+    border-radius: 50%;
+ }
+ .ion-toolbar2{
+    --background:#90e3e9;
+    --display: flex;
+    --align-items: center;
+    --justify-content: center;
+    --height: 100vh;
+
+ } 
+ .footer2{
+    --background:rgb(58, 61, 240);
+    --display: flex;
+    --align-items: center;
+    --justify-content: center;
+    --height: 100vh;
+ }

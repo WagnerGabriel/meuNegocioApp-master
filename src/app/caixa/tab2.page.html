@@ -1,0 +1,35 @@
+<ion-header class="ion-header">
+  <ion-toolbar class="ion-toolbar">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Caixa</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list class="ion-list">
+    <ion-item class="ion-item">
+      <ion-input class="ion1" type="text" placeholder="Produtos vendidos"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="Data"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="Forma de pagamento"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text"  placeholder="Hora"></ion-input>
+    </ion-item>
+  </ion-list>
+ 
+</ion-content>
+
+<ion-footer class="footer2">
+  <ion-toolbar class=ion-toolbar2>
+    <ion-button color="secondary" (click)="fecharCaixa()" expand="block">
+      Fechar Caixa 
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>

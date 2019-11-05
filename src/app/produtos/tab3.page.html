@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar class="ion-toolbar">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Produto</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item>
+      <ion-input type="text" placeholder="Nome"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="Descrição"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="Valor"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text"  placeholder="Quantidade"></ion-input>
+    </ion-item>
+  </ion-list>
+  g
+</ion-content>
+
+<ion-footer class="footer2">
+    <ion-toolbar class=ion-toolbar2>
+      <ion-button color="secondary" (click)="fecharCaixa()" expand="block">
+       Salvar Produto
+      </ion-button>
+    </ion-toolbar>
+  </ion-footer>

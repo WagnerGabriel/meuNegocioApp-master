@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Minha Conta</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-grid>
+    <ion-row name="profileInfo1">
+      <ion-col size="1" class="ion-align-self-start"></ion-col>
+      <ion-col class="ion-align-self-center">
+        <ion-avatar>
+          <img [src]="profilePicImg()" alt="Foto de Perfil">
+        </ion-avatar>
+        <ion-label class="ion-text-wrap">{{nomeAe}}</ion-label>
+      </ion-col>
+      <ion-col size="1" class="ion-align-self-end"></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col><ion-button expand="block" color="danger" (click)="sair()">Logout</ion-button></ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
