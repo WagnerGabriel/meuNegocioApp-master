@@ -1,0 +1,34 @@
+ion-content{
+    --background: url('../../assets/fundo1.png');
+}
+
+
+.dispositivo1{
+    float: right;
+    height: 50%;
+    width: 30%;
+
+}
+.dispositivo{
+    position: absolute;
+    right: 10px;
+    top: 490px;
+    height: 30%;
+    width: 30%;
+
+}
+.titulo{
+
+    text-align: center;
+    font-size: 100px;
+    color: #fff;
+    text-shadow: 0 2px 2px #000;
+    top:5px ;
+}
+.garantia{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
+}
+
